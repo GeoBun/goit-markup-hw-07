@@ -1,0 +1,128 @@
+    /* our team */
+
+    .team {
+        display: flex;
+        justify-content: center;
+        background:var(--teem-bg-color);
+    }
+
+    .team .item .name{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 0px;
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        color: var(--title-text-color);
+    }
+
+    .team .item .text{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+
+        font-size: 16px;
+        line-height: 1.18;
+
+    }
+
+
+    .team .item{
+        background-color: var(--primery-white-color);
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+    }
+
+    .team .item + .item {
+        margin-left: 30px;
+    }
+
+    .social-icon {
+        display: flex;
+        justify-items: center;
+        margin-left: 32px;
+        margin-top: 16px;
+        margin-bottom: 30px;
+    }
+
+    .icon-link+.icon-link{
+        margin-left: 10px;
+    } 
+
+    .icon-link{
+        display: flex;
+        padding: 12px 12px;
+        width: 44px;
+        height: 44px;
+        color: var(--social-site);
+        border: none;
+        border-radius: 100%;
+        background-color: var(--primery-white-color);
+
+        transition-property: background-color, color;
+        transition-duration: 250ms;
+        transition-timing-function: var(--main-cucubic-bezier);
+    }
+
+    .icon-link:hover,
+    .icon-link:focus{
+        background-color: var(--accent-color);
+        color: var(--primery-white-color);
+
+        transition-property: background-color, color;
+        transition-duration: 250ms;
+        transition-timing-function: var(--main-cucubic-bezier);
+    }
+
+
+    .icon{
+        display: flex;
+        fill: currentColor;
+        width: 20px;
+        height: 20px;
+    }
+
+    .section-title {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+
+        font-size: 36px;
+        line-height: 1.16; 
+        color: var(--title-text-color);
+    }
+
+    .spacing.text-title {
+        font-size: 18px;
+        line-height: 2;
+        color: var(--title-text-color );
+    } 
+
+    .features .text-title {
+        margin-top: 30px;
+        margin-bottom: 10px;
+
+        font-size: 14px;
+        line-height: 1.14;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .team .text-title.name{
+        font-weight: 500;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+    }
+
+    .text{
+        margin-top: 0;
+        margin-bottom: 0;
+
+        font-size: 14px;
+        line-height: 1.71;
+        color: var(--primary-text-color);
+        letter-spacing: 0.03em;
+    }

@@ -1,0 +1,59 @@
+    /* customers */
+
+    .customers{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .customers .item{
+        content: "";
+        display: block ;
+        display: inline-flex;
+        flex-wrap: nowrap;
+        height: 92px;
+        width: 170px;
+        color: var(--social-site);
+        background: var(--primery-white-color);
+        border: 1px solid var(--social-site);
+        fill: var(--social-site);
+        border-radius: 4px;
+
+        transition-property: border;
+        transition-duration: 250ms;
+        transition-timing-function: var(--main-cucubic-bezier);
+    }
+
+    .customers .item:hover{
+        border: 1px solid var(--accent-color);
+
+        transition-property: border;
+        transition-duration: 250ms;
+        transition-timing-function: var(--main-cucubic-bezier);
+    }
+
+    .customers-link{
+        display: flex;
+        justify-content: center;
+        height: 92px;
+        width: 170px;
+
+        color: currentColor;
+
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: var(--main-cucubic-bezier);
+    }
+
+    .customers-link:hover,
+    .customers-link:focus{
+        color: var(--accent-color);
+
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: var(--main-cucubic-bezier);
+    }
+
+    .customers-icon{
+        margin-top: 12px;
+        fill: currentColor;
+    }

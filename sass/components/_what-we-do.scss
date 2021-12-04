@@ -1,0 +1,32 @@
+    /* Секцыя чем занимаемся */
+    
+    .engaged {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .engaged-zero{
+        padding-top: 0;
+    }
+
+    .engaged .item + .item {
+        margin-left: 30px;
+    }
+
+    .engaged-thumb {
+        position: absolute;
+        display: block;
+        height: 70px;
+        width: 370px;
+        
+        text-align: center;
+        padding: 27px 0;
+        font-weight: bold;
+        text-transform: uppercase;
+
+        background: rgba(47, 48, 58, 0.8);
+        color: var(--primery-white-color);
+
+        transform: translateY(-100%);
+    }
