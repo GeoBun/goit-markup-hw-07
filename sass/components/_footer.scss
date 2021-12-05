@@ -6,10 +6,6 @@
         justify-content: space-between;
     }
 
-    .foot-logo {
-        margin-bottom: 20px;
-    }
-
     .foot{
         padding-top: 60px;
         padding-bottom: 60px;
@@ -25,8 +21,13 @@
         .address{
             margin-top: 20px;
             line-height: 1.71;
-        }
 
+            .place{
+                font-style: normal;
+                color: var(--primery-white-color);
+            }
+        }
+    
         .contact {
             font-style: normal;
             color: var(--foot-contacts-color);
@@ -34,38 +35,32 @@
             transition-property: color;
             transition-duration: 250ms;
             transition-timing-function: var(--main-cucubic-bezier);
-        }
 
-        &:hover,
-        &:focus{
-        color: var(--primery-white-color);
-
-        transition-property: color;
-        transition-duration: 250ms;
-        transition-timing-function: var(--main-cucubic-bezier);
-        }
-
-        .icon-link{
-        background-color: rgba(255, 255, 255, 0.1);
-        }
-
-        &:hover,
-        &:focus{
-        background-color: var(--accent-color);
-        }
-
-        .social-icon{
-        margin-left: 0;
-        margin-top: 20px;
-        margin-bottom: 0;
-
-            .icon{
-            fill: var(--primery-white-color);
+            &:hover,
+            &:focus{
+            color: var(--primery-white-color);
+    
+            transition-property: color;
+            transition-duration: 250ms;
+            transition-timing-function: var(--main-cucubic-bezier);
             }
         }
-    }
+    
+        .icon-link{
+            background-color: rgba(255, 255, 255, 0.1);
 
-    .address .place{
-        font-style: normal;
-        color: var(--primery-white-color);
+            &:hover,
+            &:focus{
+            background-color: var(--accent-color);
+            }
+        }
+        .social-icon{
+            margin-left: 0;
+            margin-top: 20px;
+            margin-bottom: 0;
+
+            .icon{
+                fill: var(--primery-white-color);
+            }
+        }
     }

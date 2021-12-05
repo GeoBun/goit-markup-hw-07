@@ -11,14 +11,14 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: var(--main-cucubic-bezier);
-}
 
-&:hover,
-&:focus{
+    &:hover,
+    &:focus{
     color: var(--accent-color);
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: var(--main-cucubic-bezier);
+    }
 }
 
 .icon-mail{

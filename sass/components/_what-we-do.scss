@@ -5,10 +5,13 @@
         display: flex;
         justify-content: center;
 
-        
         .item + .item {
-        margin-left: 30px;
+            margin-left: 30px;
         }
+    }
+
+    .engaged-zero{
+        padding-top: 0;
     }
 
     .engaged-thumb {

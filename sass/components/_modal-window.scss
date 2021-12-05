@@ -11,15 +11,14 @@
 
         transform: translateX(-50%);
         transition: opacity 250ms var(--main-cucubic-bezier);
+    }
 
-        .is-hidden{
-            opacity: 0;
-            pointer-events: none;
-            
-            transform: translateX(50%);
-            transition: opacity 250ms var(--main-cucubic-bezier);
+    .backdrop.is-hidden{
+        opacity: 0;
+        pointer-events: none;
         
-        }
+        transform: translateX(50%);
+        transition: opacity 250ms var(--main-cucubic-bezier);
     }
 
     .modal{
@@ -60,10 +59,10 @@
         height: 18px;
 
         transition: fill 250ms var(--main-cucubic-bezier);
-    }
 
-    &:hover,
-    &:focus{
+        &:hover,
+        &:focus{
         fill: var(--accent-color);
         transition: fill 250ms var(--main-cucubic-bezier);
+        }
     }

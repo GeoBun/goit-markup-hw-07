@@ -33,10 +33,10 @@
         border: none;
         width: 100%;
         margin-bottom: 10px;
-    }
 
-    &:nth-last-child(1){
-        margin-bottom: 0;
+        &:nth-last-child(1){
+            margin-bottom: 0;
+        }
     }
 
     .options-item{
@@ -71,20 +71,20 @@
 
         transition: border 250ms var(--main-cucubic-bezier),
         outline 250ms var(--main-cucubic-bezier);
-    }
 
-    &:focus{
-        outline: var(--accent-color);
-        border: 1px solid var(--accent-color);
+        &:focus + .modal-form-icon{
+            fill: var(--accent-color);
+    
+            transition: fill 250ms var(--main-cucubic-bezier);
+        }
 
-        transition: border 250ms var(--main-cucubic-bezier),
-        outline 250ms var(--main-cucubic-bezier);
-    }
-
-    &:focus + .modal-form-icon{
-        fill: var(--accent-color);
-
-        transition: fill 250ms var(--main-cucubic-bezier);
+        &:focus{
+            outline: var(--accent-color);
+            border: 1px solid var(--accent-color);
+    
+            transition: border 250ms var(--main-cucubic-bezier),
+            outline 250ms var(--main-cucubic-bezier);
+        }
     }
 
     .coment{
@@ -98,12 +98,12 @@
 
         transition: border 250ms var(--main-cucubic-bezier),
         outline 250ms var(--main-cucubic-bezier);
-    }
 
-    &:focus{
-        outline: var(--accent-color);
-        border: 1px solid var(--accent-color);
-
-        transition: border 250ms var(--main-cucubic-bezier),
-        outline 250ms var(--main-cucubic-bezier);
+        &:focus{
+            outline: var(--accent-color);
+            border: 1px solid var(--accent-color);
+    
+            transition: border 250ms var(--main-cucubic-bezier),
+            outline 250ms var(--main-cucubic-bezier);
+        }
     }

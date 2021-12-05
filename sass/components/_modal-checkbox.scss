@@ -1,6 +1,6 @@
    /* checkbox  */
 
-   .form-checkbox_group{
+   .form-checkbox-group{
     display: inline-block;
     align-items: center;
     font-size: 14px;
@@ -28,23 +28,23 @@
     display: inline-block;
     margin-top: 20px;
     margin-left: 37px;
-}
 
-&::before{
-    position: absolute;
-    content: '';
-    display: inline-block;
-    align-items: center;
-    width: 16px;
-    height: 15px;
-    left: 52px;
-
-    background-color: var(--primery-white-color);
-    border: 1px solid black;
-    border-radius: 2px;
-
-    transition: background 250ms var(--main-cucubic-bezier),
-    border 250ms var(--main-cucubic-bezier);
+    &::before{
+        position: absolute;
+        content: '';
+        display: inline-block;
+        align-items: center;
+        width: 16px;
+        height: 15px;
+        left: 52px;
+    
+        background-color: var(--primery-white-color);
+        border: 1px solid black;
+        border-radius: 2px;
+    
+        transition: background 250ms var(--main-cucubic-bezier),
+        border 250ms var(--main-cucubic-bezier);
+    }
 }
 
 .checkbox:checked + .checkbox-lable::before{

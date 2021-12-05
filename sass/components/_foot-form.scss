@@ -2,7 +2,6 @@
 
      .foot-form-group{
         display: flexbox;
-
     }
 
     .foot-form-title{
@@ -32,11 +31,11 @@
 
         transition: border 250ms var(--main-cucubic-bezier),
         ouline 250ms var(--main-cucubic-bezier);
-    }
 
-    &:focus{
-        border: 1px solid var(--accent-color);
-        outline: var(--accent-color);
-        transition: border 250ms var(--main-cucubic-bezier),
-        ouline 250ms var(--main-cucubic-bezier);
+        &:focus{
+            border: 1px solid var(--accent-color);
+            outline: var(--accent-color);
+            transition: border 250ms var(--main-cucubic-bezier),
+            ouline 250ms var(--main-cucubic-bezier);
+        }
     }
