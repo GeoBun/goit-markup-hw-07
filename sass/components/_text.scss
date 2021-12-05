@@ -1,0 +1,66 @@
+.section-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+    font-size: 36px;
+    line-height: 1.16; 
+    color: var(--title-text-color);
+}
+
+.spacing.text-title {
+    font-size: 18px;
+    line-height: 2;
+    color: var(--title-text-color );
+    letter-spacing: 0.06em;
+    
+} 
+
+.features .text-title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+    font-size: 14px;
+    line-height: 1.14;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.text{
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
+}
+
+.team .item.name{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--title-text-color);
+}
+
+.team .item.text{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.foot .social-title {
+    font-weight: bold;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    color: var(--primery-white-color);
+}

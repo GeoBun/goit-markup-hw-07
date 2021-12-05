@@ -4,14 +4,11 @@
         position: relative;
         display: flex;
         justify-content: center;
-    }
 
-    .engaged-zero{
-        padding-top: 0;
-    }
-
-    .engaged .item + .item {
+        
+        .item + .item {
         margin-left: 30px;
+        }
     }
 
     .engaged-thumb {

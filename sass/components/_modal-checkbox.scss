@@ -1,6 +1,6 @@
    /* checkbox  */
 
-   .form-checkbox-group{
+   .form-checkbox_group{
     display: inline-block;
     align-items: center;
     font-size: 14px;
@@ -30,7 +30,7 @@
     margin-left: 37px;
 }
 
-.checkbox-lable::before{
+&::before{
     position: absolute;
     content: '';
     display: inline-block;

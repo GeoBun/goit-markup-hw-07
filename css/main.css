@@ -681,7 +681,7 @@ body {
   transition-timing-function: var(--main-cucubic-bezier);
 }
 
-.list .button + .button {
+.button + .button {
   margin-left: 8px;
 }
 

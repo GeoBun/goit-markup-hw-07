@@ -35,7 +35,7 @@
         margin-bottom: 10px;
     }
 
-    .options-list:nth-last-child(1){
+    &:nth-last-child(1){
         margin-bottom: 0;
     }
 
@@ -52,12 +52,6 @@
         width: 18px;
         height: 18px; 
         fill: var(--title-text-color);
-
-        transition: fill 250ms var(--main-cucubic-bezier);
-    }
-
-    .field:focus + .modal-form-icon{
-        fill: var(--accent-color);
 
         transition: fill 250ms var(--main-cucubic-bezier);
     }
@@ -79,12 +73,18 @@
         outline 250ms var(--main-cucubic-bezier);
     }
 
-    .field:focus{
+    &:focus{
         outline: var(--accent-color);
         border: 1px solid var(--accent-color);
 
         transition: border 250ms var(--main-cucubic-bezier),
         outline 250ms var(--main-cucubic-bezier);
+    }
+
+    &:focus + .modal-form-icon{
+        fill: var(--accent-color);
+
+        transition: fill 250ms var(--main-cucubic-bezier);
     }
 
     .coment{
@@ -100,7 +100,7 @@
         outline 250ms var(--main-cucubic-bezier);
     }
 
-    .coment:focus{
+    &:focus{
         outline: var(--accent-color);
         border: 1px solid var(--accent-color);
 

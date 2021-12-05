@@ -17,8 +17,8 @@
     transition-timing-function: var(--main-cucubic-bezier);
 }
 
-.hiro .hiro-btn :hover,
-.hiro .hiro-btn :focus{
+&:hover,
+&:focus{
     background-color: var(--hiro-btn-hover-color);  
 
     transition-property: background-color;

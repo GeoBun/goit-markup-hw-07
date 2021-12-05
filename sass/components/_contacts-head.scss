@@ -13,8 +13,8 @@
     transition-timing-function: var(--main-cucubic-bezier);
 }
 
-.contacts:hover,
-.contacts:focus{
+&:hover,
+&:focus{
     color: var(--accent-color);
     transition-property: color;
     transition-duration: 250ms;
