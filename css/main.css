@@ -175,6 +175,32 @@ body {
   color: var(--primery-white-color);
 }
 
+.contacts {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--main-cucubic-bezier);
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-color);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--main-cucubic-bezier);
+}
+
+.icon-mail {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
 .hiro-btn {
   display: inline-block;
   padding: 10px 32px;
