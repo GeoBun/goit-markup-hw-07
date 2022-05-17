@@ -2,7 +2,7 @@
     display: flex;
     min-width: 270px;
 
-    .item {
+    &.item {
         width: 270px;
 
         &::before{
@@ -15,11 +15,11 @@
         }
     }
     
-    .item+.item{
+    &.item + .item{
         margin-left: 30px;
     }
     
-    .text-title{
+    &.text-title{
         margin-top: 30px;
     
         font-weight: bold;
@@ -27,7 +27,7 @@
         text-transform: uppercase;
     }
 
-    .antenna::before{
+    &.antenna::before{
         content: "";
         display: block ;
         background-image: url(../images/antenna.svg);
@@ -35,7 +35,7 @@
         background-position: center;
     }
     
-    .clock::before{
+    &.clock::before{
         content: "";
         display: block ;
         background-image: url(../images/clock.svg);
@@ -43,7 +43,7 @@
         background-position: center;
     }
     
-    .chart::before{
+    &.chart::before{
         content: "";
         display: block ;
         background-image: url(../images/chart.svg);
@@ -51,7 +51,7 @@
         background-position: center;
     }
     
-    .astronaut::before{
+    &.astronaut::before{
         content: "";
         display: block ;
         background-image: url(..//images/astronaut.svg);
@@ -59,36 +59,3 @@
         background-position: center;
     }
 }
-
-
-.features .antenna::before{
-    content: "";
-    display: block ;
-    background-image: url(../images/antenna.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.features .clock::before{
-    content: "";
-    display: block ;
-    background-image: url(../images/clock.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.features .chart::before{
-    content: "";
-    display: block ;
-    background-image: url(../images/chart.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.features .astronaut::before {
-    content: "";
-    display: block ;
-    background-image: url(..//images/astronaut.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-} 

@@ -3,9 +3,8 @@
     .customers{
         display: flex;
         justify-content: space-between;
-    }
 
-    .customers .item{
+        &.item{
         content: "";
         display: block ;
         display: inline-flex;
@@ -23,12 +22,13 @@
         transition-timing-function: var(--main-cucubic-bezier);
 
         
-        &:hover{
-        border: 1px solid var(--accent-color);
+            &:hover{
+            border: 1px solid var(--accent-color);
 
-        transition-property: border;
-        transition-duration: 250ms;
-        transition-timing-function: var(--main-cucubic-bezier);
+            transition-property: border;
+            transition-duration: 250ms;
+            transition-timing-function: var(--main-cucubic-bezier);
+            }
         }
     }
 
@@ -51,7 +51,7 @@
         transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: var(--main-cucubic-bezier);
-    }
+        }
     }
 
     .customers-icon{
